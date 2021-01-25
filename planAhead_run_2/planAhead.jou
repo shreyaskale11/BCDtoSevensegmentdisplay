@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Jan 25 11:22:16 2021
+# Process ID: 5660
+# Log file: D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/planAhead_run_2/planAhead.log
+# Journal file: D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/pa.fromHdl.tcl}

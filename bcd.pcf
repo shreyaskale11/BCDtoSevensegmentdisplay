@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jan 25 12:22:09 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Seven_Segment<0>" LOCATE = SITE "P134" LEVEL 1;
+COMP "Seven_Segment<1>" LOCATE = SITE "P137" LEVEL 1;
+COMP "Seven_Segment<2>" LOCATE = SITE "P138" LEVEL 1;
+COMP "Seven_Segment<3>" LOCATE = SITE "P139" LEVEL 1;
+COMP "Seven_Segment<4>" LOCATE = SITE "P140" LEVEL 1;
+COMP "digit<0>" LOCATE = SITE "P127" LEVEL 1;
+COMP "Seven_Segment<5>" LOCATE = SITE "P141" LEVEL 1;
+COMP "digit<1>" LOCATE = SITE "P131" LEVEL 1;
+COMP "Seven_Segment<6>" LOCATE = SITE "P142" LEVEL 1;
+COMP "digit<2>" LOCATE = SITE "P132" LEVEL 1;
+COMP "Seven_Segment<7>" LOCATE = SITE "P143" LEVEL 1;
+COMP "digit<3>" LOCATE = SITE "P133" LEVEL 1;
+COMP "BCDin<0>" LOCATE = SITE "P22" LEVEL 1;
+COMP "BCDin<1>" LOCATE = SITE "P21" LEVEL 1;
+COMP "BCDin<2>" LOCATE = SITE "P17" LEVEL 1;
+COMP "BCDin<3>" LOCATE = SITE "P16" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            01/25/2021 - 12:17
+SOURCE          D:\ISE 14.7 PROJECT\ise 14.7\BCDtoSevensegmentdisplay\Untitled.mcs
+DEVICE          8192K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x7A574418
+START_ADDRESS   0x00000000 END_ADDRESS 0x0005327B DIRECTION_UP   "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.bit" 6slx9tqg144
