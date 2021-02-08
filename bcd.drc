@@ -1,8 +1,24 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Mon Jan 25 12:22:39 2021
+Wed Jan 27 17:33:33 2021
 
 drc -z bcd.ncd bcd.pcf
 
-DRC detected 0 errors and 0 warnings.
+ERROR:PhysDesignRules:368 - The signal <sel_OBUF> is incomplete. The signal is
+   not driven by any source pin in the design.
+ERROR:PhysDesignRules:368 - The signal <digit<0>_OBUF> is incomplete. The signal
+   is not driven by any source pin in the design.
+ERROR:PhysDesignRules:368 - The signal <digit<1>_OBUF> is incomplete. The signal
+   is not driven by any source pin in the design.
+ERROR:PhysDesignRules:368 - The signal <digit<2>_OBUF> is incomplete. The signal
+   is not driven by any source pin in the design.
+ERROR:PhysDesignRules:368 - The signal <digit<3>_OBUF> is incomplete. The signal
+   is not driven by any source pin in the design.
+ERROR:PhysDesignRules:10 - The network <sel_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <digit<0>_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <digit<1>_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <digit<2>_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <digit<3>_OBUF> is completely unrouted.
+ERROR:Bitgen:25 - DRC detected 10 errors and 0 warnings.  Please see the
+   previously displayed individual error or warning messages for more details.

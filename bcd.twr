@@ -2,7 +2,7 @@
 Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+C:\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf
 
 Design file:              bcd.ncd
@@ -29,51 +29,18 @@ INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on
 
 Data Sheet report:
 -----------------
-All values displayed in nanoseconds (ns)
+No constraints were found to generate data for the Data Sheet Report section.
+Use the Advanced Analysis (-a) option or generate global constraints for each
+clock, its pad to setup and clock to pad paths, and a pad to pad constraint.
 
-Pad to Pad
----------------+----------------+---------+
-Source Pad     |Destination Pad |  Delay  |
----------------+----------------+---------+
-BCDin<0>       |Seven_Segment<1>|   10.761|
-BCDin<0>       |Seven_Segment<2>|   10.818|
-BCDin<0>       |Seven_Segment<3>|   10.603|
-BCDin<0>       |Seven_Segment<4>|   11.156|
-BCDin<0>       |Seven_Segment<5>|   10.555|
-BCDin<0>       |Seven_Segment<6>|   10.723|
-BCDin<0>       |Seven_Segment<7>|   10.760|
-BCDin<1>       |Seven_Segment<1>|   10.990|
-BCDin<1>       |Seven_Segment<2>|   10.750|
-BCDin<1>       |Seven_Segment<3>|   10.485|
-BCDin<1>       |Seven_Segment<4>|   10.711|
-BCDin<1>       |Seven_Segment<5>|   10.784|
-BCDin<1>       |Seven_Segment<6>|   10.278|
-BCDin<1>       |Seven_Segment<7>|   10.692|
-BCDin<2>       |Seven_Segment<1>|   10.669|
-BCDin<2>       |Seven_Segment<2>|   10.640|
-BCDin<2>       |Seven_Segment<3>|   10.284|
-BCDin<2>       |Seven_Segment<4>|   10.597|
-BCDin<2>       |Seven_Segment<5>|   10.463|
-BCDin<2>       |Seven_Segment<6>|   10.164|
-BCDin<2>       |Seven_Segment<7>|   10.582|
-BCDin<3>       |Seven_Segment<1>|   10.283|
-BCDin<3>       |Seven_Segment<2>|   10.589|
-BCDin<3>       |Seven_Segment<3>|    9.890|
-BCDin<3>       |Seven_Segment<4>|   10.500|
-BCDin<3>       |Seven_Segment<5>|   10.077|
-BCDin<3>       |Seven_Segment<6>|   10.067|
-BCDin<3>       |Seven_Segment<7>|   10.531|
----------------+----------------+---------+
-
-
-Analysis completed Mon Jan 25 12:22:30 2021 
+Analysis completed Wed Jan 27 17:33:24 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4571 MB
+Peak Memory Usage: 4555 MB
 
 
 

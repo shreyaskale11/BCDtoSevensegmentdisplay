@@ -10,41 +10,24 @@ Target Device  : xc6slx9
 Target Package : tqg144
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Mon Jan 25 12:22:00 2021
+Mapped Date    : Wed Jan 27 17:32:52 2021
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:    0
+Number of warnings:    5
 Slice Logic Utilization:
   Number of Slice Registers:                     0 out of  11,440    0%
-  Number of Slice LUTs:                          4 out of   5,720    1%
-    Number used as logic:                        4 out of   5,720    1%
-      Number using O6 output only:               1
-      Number using O5 output only:               0
-      Number using O5 and O6:                    3
-      Number used as ROM:                        0
-    Number used as Memory:                       0 out of   1,440    0%
+  Number of Slice LUTs:                          0 out of   5,720    0%
 
 Slice Logic Distribution:
-  Number of occupied Slices:                     2 out of   1,430    1%
+  Number of occupied Slices:                     0 out of   1,430    0%
   Number of MUXCYs used:                         0 out of   2,860    0%
-  Number of LUT Flip Flop pairs used:            4
-    Number with an unused Flip Flop:             4 out of       4  100%
-    Number with an unused LUT:                   0 out of       4    0%
-    Number of fully used LUT-FF pairs:           0 out of       4    0%
-    Number of slice register sites lost
-      to control set restrictions:               0 out of  11,440    0%
-
-  A LUT Flip Flop pair for this architecture represents one LUT paired with
-  one Flip Flop within a slice.  A control set is a unique combination of
-  clock, reset, set, and enable signals for a registered element.
-  The Slice Logic Distribution report is not meaningful if the design is
-  over-mapped for a non-slice resource or if Placement fails.
+  Number of LUT Flip Flop pairs used:            0
 
 IO Utilization:
-  Number of bonded IOBs:                        16 out of     102   15%
-    Number of LOCed IOBs:                       16 out of      16  100%
+  Number of bonded IOBs:                        22 out of     102   21%
+    Number of LOCed IOBs:                       22 out of      22  100%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
@@ -69,11 +52,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                2.09
+Average Fanout of Non-Clock Nets:                0.00
 
-Peak Memory Usage:  4552 MB
-Total REAL time to MAP completion:  9 secs 
-Total CPU time to MAP completion:   9 secs 
+Peak Memory Usage:  4551 MB
+Total REAL time to MAP completion:  10 secs 
+Total CPU time to MAP completion:   10 secs 
 
 Table of Contents
 -----------------
@@ -96,10 +79,30 @@ Section 1 - Errors
 
 Section 2 - Warnings
 --------------------
+WARNING:PhysDesignRules:368 - The signal <sel_OBUF> is incomplete. The signal is
+   not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <digit<0>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <digit<1>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <digit<2>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <digit<3>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
 
 Section 3 - Informational
 -------------------------
-INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:243 - Logical network reset has no load.
+INFO:LIT:395 - The above info message is repeated 25 more times for the
+   following (max. 5 shown):
+   Seven_Segment<7>,
+   Seven_Segment<6>,
+   Seven_Segment<5>,
+   Seven_Segment<4>,
+   Seven_Segment<3>
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:564 - The following environment variables are currently set:
+INFO:MapLib:591 - XIL_MAP_LOCWARN 	Value: 1
 INFO:LIT:244 - All of the single ended outputs in this design are using slew
    rate limited output drivers. The delay on speed critical single ended outputs
    can be dramatically reduced by designating them as fast outputs.
@@ -113,14 +116,9 @@ INFO:Pack:1650 - Map created a placed design.
 
 Section 4 - Removed Logic Summary
 ---------------------------------
-   1 block(s) optimized away
 
 Section 5 - Removed Logic
 -------------------------
-
-Optimized Block(s):
-TYPE 		BLOCK
-VCC 		XST_VCC
 
 Section 6 - IOB Properties
 --------------------------
@@ -129,22 +127,28 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| BCDin<0>                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| BCDin<1>                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| BCDin<2>                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| BCDin<3>                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
-| Seven_Segment<0>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Seven_Segment<1>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Seven_Segment<2>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Seven_Segment<3>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Seven_Segment<4>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Seven_Segment<5>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Seven_Segment<6>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
-| Seven_Segment<7>                   | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| BCDin0<0>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin0<1>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin0<2>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin0<3>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin1<0>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin1<1>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin1<2>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin1<3>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin2<0>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin2<1>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin2<2>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin2<3>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin3<0>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin3<1>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin3<2>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| BCDin3<3>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| clk                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | digit<0>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | digit<1>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | digit<2>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | digit<3>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| sel                                | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs

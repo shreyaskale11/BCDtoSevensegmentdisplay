@@ -5,14 +5,14 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Mon Jan 25 12:21:36 2021">
+  <application stringID="Xst" timeStamp="Wed Jan 27 17:42:15 2021">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;C:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;C:\xilinx\14.7\ISE_DS\ISE\bin\nt64;C:\xilinx\14.7\ISE_DS\ISE\lib\nt64;C:\xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;C:\xilinx\14.7\ISE_DS\PlanAhead\bin;C:\xilinx\14.7\ISE_DS\EDK\bin\nt64;C:\xilinx\14.7\ISE_DS\EDK\lib\nt64;C:\xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\xilinx\14.7\ISE_DS\EDK\gnuwin\bin;C:\xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;C:\xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\xilinx\14.7\ISE_DS\common\bin\nt64;C:\xilinx\14.7\ISE_DS\common\lib\nt64;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\Users\shreyask\AppData\Local\Programs\Python\Python39;C:\Users\shreyask\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\MATLAB\MATLAB Runtime\v98\runtime\win64;C:\Users\shreyask\anaconda3;C:\Users\shreyask\anaconda3\Library\mingw-w64\bin;C:\Users\shreyask\anaconda3\Library\usr\bin;C:\Users\shreyask\anaconda3\Library\bin;C:\Users\shreyask\anaconda3\Scripts;C:\Users\shreyask\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\shreyask\AppData\Local\Programs\Python\Python39\;C:\Users\shreyask\AppData\Local\Microsoft\WindowsApps;C:\Xilinx\Vivado\2019.2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.3\bin;C:\Users\shreyask\AppData\Local\GitHubDesktop\bin"/>
+          <item stringID="value" value="C:\xilinx\14.7\ISE_DS\ISE\\lib\nt64;C:\xilinx\14.7\ISE_DS\ISE\\bin\nt64;C:\xilinx\14.7\ISE_DS\ISE\bin\nt64;C:\xilinx\14.7\ISE_DS\ISE\lib\nt64;C:\xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;C:\xilinx\14.7\ISE_DS\PlanAhead\bin;C:\xilinx\14.7\ISE_DS\EDK\bin\nt64;C:\xilinx\14.7\ISE_DS\EDK\lib\nt64;C:\xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\xilinx\14.7\ISE_DS\EDK\gnuwin\bin;C:\xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;C:\xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\xilinx\14.7\ISE_DS\common\bin\nt64;C:\xilinx\14.7\ISE_DS\common\lib\nt64;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\Users\shreyask\AppData\Local\Programs\Python\Python39;C:\Users\shreyask\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\MATLAB\MATLAB Runtime\v98\runtime\win64;C:\Users\shreyask\anaconda3;C:\Users\shreyask\anaconda3\Library\mingw-w64\bin;C:\Users\shreyask\anaconda3\Library\usr\bin;C:\Users\shreyask\anaconda3\Library\bin;C:\Users\shreyask\anaconda3\Scripts;C:\Users\shreyask\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\shreyask\AppData\Local\Programs\Python\Python39\;C:\Users\shreyask\AppData\Local\Microsoft\WindowsApps;C:\Xilinx\Vivado\2019.2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.3\bin;C:\Users\shreyask\AppData\Local\GitHubDesktop\bin"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -20,7 +20,7 @@
         </row>
         <row stringID="row" value="2">
           <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="C:\Xilinx\14.7\ISE_DS\ISE\"/>
+          <item stringID="value" value="C:\xilinx\14.7\ISE_DS\ISE\"/>
         </row>
         <row stringID="row" value="3">
           <item stringID="variable" value="XILINX_DSP"/>
@@ -33,6 +33,14 @@
         <row stringID="row" value="5">
           <item stringID="variable" value="XILINX_PLANAHEAD"/>
           <item stringID="value" value="C:\xilinx\14.7\ISE_DS\PlanAhead"/>
+        </row>
+        <row stringID="row" value="6">
+          <item stringID="variable" value="XIL_IMPACT_SKIPIDCODECHECK"/>
+          <item stringID="value" value="1"/>
+        </row>
+        <row stringID="row" value="7">
+          <item stringID="variable" value="XIL_MAP_LOCWARN"/>
+          <item stringID="value" value="1"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
@@ -101,52 +109,10 @@
       <item DEFAULT="Yes" label="-equivalent_register_removal" stringID="XST_EQUIVALENTREGISTERREMOVAL" value="YES"/>
       <item DEFAULT="0" label="-slice_utilization_ratio_maxmargin" stringID="XST_SLICEUTILIZATIONRATIOMAXMARGIN" value="5"/>
     </section>
-    <section stringID="XST_HDL_SYNTHESIS_REPORT">
-      <item dataType="int" stringID="XST_RAMS" value="1"></item>
-    </section>
-    <section stringID="XST_ADVANCED_HDL_SYNTHESIS_REPORT">
-      <item dataType="int" stringID="XST_RAMS" value="1"></item>
-    </section>
-    <section stringID="XST_FINAL_REGISTER_REPORTFOUND_NO_MACRO"/>
-    <section stringID="XST_PARTITION_REPORT">
-      <section stringID="XST_PARTITION_IMPLEMENTATION_STATUS">
-        <section stringID="XST_NO_PARTITIONS_WERE_FOUND_IN_THIS_DESIGN"/>
-      </section>
-    </section>
-    <section stringID="XST_DESIGN_SUMMARY">
-      <section stringID="XST_">
-        <item stringID="XST_TOP_LEVEL_OUTPUT_FILE_NAME" value="bcd.ngc"/>
-      </section>
-      <section stringID="XST_PRIMITIVE_AND_BLACK_BOX_USAGE">
-        <item dataType="int" stringID="XST_BELS" value="8">
-          <item dataType="int" stringID="XST_LUT4" value="7"/>
-          <item dataType="int" stringID="XST_VCC" value="1"/>
-        </item>
-        <item dataType="int" stringID="XST_IO_BUFFERS" value="16">
-          <item dataType="int" stringID="XST_IBUF" value="4"/>
-          <item dataType="int" stringID="XST_OBUF" value="12"/>
-        </item>
-      </section>
-    </section>
-    <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
-      <item stringID="XST_SELECTED_DEVICE" value="6slx9tqg144-2"/>
-      <item AVAILABLE="5720" dataType="int" label="Number of Slice LUTs" stringID="XST_NUMBER_OF_SLICE_LUTS" value="7"/>
-      <item AVAILABLE="5720" dataType="int" label="Number used as Logic" stringID="XST_NUMBER_USED_AS_LOGIC" value="7"/>
-      <item dataType="int" label="Number of LUT Flip Flop pairs used" stringID="XST_NUMBER_OF_LUT_FLIP_FLOP_PAIRS_USED" value="7"/>
-      <item AVAILABLE="7" dataType="int" label="Number with an unused Flip Flop" stringID="XST_NUMBER_WITH_AN_UNUSED_FLIP_FLOP" value="7"/>
-      <item AVAILABLE="7" dataType="int" label="Number with an unused LUT" stringID="XST_NUMBER_WITH_AN_UNUSED_LUT" value="0"/>
-      <item AVAILABLE="7" dataType="int" label="Number of fully used LUT-FF pairs" stringID="XST_NUMBER_OF_FULLY_USED_LUTFF_PAIRS" value="0"/>
-      <item dataType="int" label="Number of unique control sets" stringID="XST_NUMBER_OF_UNIQUE_CONTROL_SETS" value="0"/>
-      <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="16"/>
-      <item AVAILABLE="102" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="16"/>
-    </section>
-    <section stringID="XST_PARTITION_RESOURCE_SUMMARY">
-      <section stringID="XST_NO_PARTITIONS_WERE_FOUND_IN_THIS_DESIGN"/>
-    </section>
     <section stringID="XST_ERRORS_STATISTICS">
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="0"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_ERRORS" value="2"/>
       <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_WARNINGS" value="0"/>
-      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="1"/>
+      <item dataType="int" filtered="0" stringID="XST_NUMBER_OF_INFOS" value="0"/>
     </section>
   </application>
 

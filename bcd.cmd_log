@@ -46,3 +46,108 @@ map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -reg
 par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
 trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
 bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc6slx9-tqg144-2 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -mt off bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 
+xst -intstyle ise -ifn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.xst" -ofn "D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/bcd.syr" 

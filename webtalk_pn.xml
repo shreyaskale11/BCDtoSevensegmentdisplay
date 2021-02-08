@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Mon Jan 25 12:22:11 2021">
+<application name="pn" timeStamp="Wed Jan 27 17:42:12 2021">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="3BA6F4E48DD84696BEE6D32BB81CA5D3" type="project"/>
-<property name="ProjectIteration" value="8" type="project"/>
+<property name="ProjectIteration" value="21" type="project"/>
 <property name="ProjectFile" value="D:/ISE 14.7 PROJECT/ise 14.7/BCDtoSevensegmentdisplay/BCDtoSevensegmentdisplay.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2021-01-25T10:58:50" type="project"/>
 </section>
@@ -24,10 +24,11 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2021-01-25T10:58:50" type="design"/>
 <property name="PROP_intWbtProjectID" value="3BA6F4E48DD84696BEE6D32BB81CA5D3" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="8" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="21" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_lockPinsUcfFile" value="changed" type="process"/>
+<property name="PROP_xilxBitgStart_IntDone" value="true" type="process"/>
 <property name="PROP_AutoTop" value="true" type="design"/>
 <property name="PROP_DevFamily" value="Spartan6" type="design"/>
 <property name="PROP_DevDevice" value="xc6slx9" type="design"/>

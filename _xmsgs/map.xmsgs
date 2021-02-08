@@ -5,7 +5,22 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">reset</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="new" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">25</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">Seven_Segment&lt;7&gt;,
+Seven_Segment&lt;6&gt;,
+Seven_Segment&lt;5&gt;,
+Seven_Segment&lt;4&gt;,
+Seven_Segment&lt;3&gt;</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="564" delta="old" >The following environment variables are currently set:
+</msg>
+
+<msg type="info" file="MapLib" num="591" delta="old" ><arg fmt="%s" index="1">XIL_MAP_LOCWARN</arg> 	Value: <arg fmt="%s" index="2">1</arg>
 </msg>
 
 <msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
@@ -21,6 +36,21 @@
 </msg>
 
 <msg type="info" file="Pack" num="1650" delta="old" >Map created a placed design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="368" delta="old" >The signal &lt;<arg fmt="%s" index="1">sel_OBUF</arg>&gt; is incomplete. The signal is not driven by any source pin in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="368" delta="old" >The signal &lt;<arg fmt="%s" index="1">digit&lt;0&gt;_OBUF</arg>&gt; is incomplete. The signal is not driven by any source pin in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="368" delta="old" >The signal &lt;<arg fmt="%s" index="1">digit&lt;1&gt;_OBUF</arg>&gt; is incomplete. The signal is not driven by any source pin in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="368" delta="old" >The signal &lt;<arg fmt="%s" index="1">digit&lt;2&gt;_OBUF</arg>&gt; is incomplete. The signal is not driven by any source pin in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="368" delta="old" >The signal &lt;<arg fmt="%s" index="1">digit&lt;3&gt;_OBUF</arg>&gt; is incomplete. The signal is not driven by any source pin in the design.
 </msg>
 
 </messages>

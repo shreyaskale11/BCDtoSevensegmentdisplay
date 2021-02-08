@@ -10,7 +10,7 @@ Target Device  : xc6slx9
 Target Package : tqg144
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Mon Jan 25 12:22:00 2021
+Mapped Date    : Wed Jan 27 17:32:52 2021
 
 Mapping design into LUTs...
 Running directed packing...
@@ -19,91 +19,82 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 8 secs 
-Total CPU  time at the beginning of Placer: 7 secs 
+Total REAL time at the beginning of Placer: 9 secs 
+Total CPU  time at the beginning of Placer: 8 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:cb8f44c9) REAL time: 9 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:eae9ac6b) REAL time: 9 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:cb8f44c9) REAL time: 9 secs 
+Phase 2.7  Design Feasibility Check (Checksum:eae9ac6b) REAL time: 9 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:cb8f44c9) REAL time: 9 secs 
+Phase 3.31  Local Placement Optimization (Checksum:eae9ac6b) REAL time: 9 secs 
 
 Phase 4.2  Initial Placement for Architecture Specific Features
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:cb8f44c9) REAL time: 9 secs 
+(Checksum:eae9ac6b) REAL time: 10 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:cb8f44c9) REAL time: 9 secs 
+Phase 5.36  Local Placement Optimization (Checksum:eae9ac6b) REAL time: 10 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:cb8f44c9) REAL time: 9 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:eae9ac6b) REAL time: 10 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:cb8f44c9) REAL time: 9 secs 
+Phase 7.3  Local Placement Optimization (Checksum:eae9ac6b) REAL time: 10 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:cb8f44c9) REAL time: 9 secs 
+Phase 8.5  Local Placement Optimization (Checksum:eae9ac6b) REAL time: 10 secs 
 
 Phase 9.8  Global Placement
-..
-..
-Phase 9.8  Global Placement (Checksum:d01009e9) REAL time: 9 secs 
+Phase 9.8  Global Placement (Checksum:eae9ac6b) REAL time: 10 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:d01009e9) REAL time: 9 secs 
+Phase 10.5  Local Placement Optimization (Checksum:eae9ac6b) REAL time: 10 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:d073d6e9) REAL time: 9 secs 
+Phase 11.18  Placement Optimization (Checksum:eae9ac6b) REAL time: 10 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:d073d6e9) REAL time: 9 secs 
+Phase 12.5  Local Placement Optimization (Checksum:eae9ac6b) REAL time: 10 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:d073d6e9) REAL time: 9 secs 
+Phase 13.34  Placement Validation (Checksum:eae9ac6b) REAL time: 10 secs 
 
-Total REAL time to Placer completion: 9 secs 
-Total CPU  time to Placer completion: 8 secs 
+Total REAL time to Placer completion: 10 secs 
+Total CPU  time to Placer completion: 9 secs 
 Running post-placement packing...
 Writing output files...
+WARNING:PhysDesignRules:368 - The signal <sel_OBUF> is incomplete. The signal is
+   not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <digit<0>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <digit<1>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <digit<2>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+WARNING:PhysDesignRules:368 - The signal <digit<3>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
 
 Design Summary
 --------------
 
 Design Summary:
 Number of errors:      0
-Number of warnings:    0
+Number of warnings:    5
 Slice Logic Utilization:
   Number of Slice Registers:                     0 out of  11,440    0%
-  Number of Slice LUTs:                          4 out of   5,720    1%
-    Number used as logic:                        4 out of   5,720    1%
-      Number using O6 output only:               1
-      Number using O5 output only:               0
-      Number using O5 and O6:                    3
-      Number used as ROM:                        0
-    Number used as Memory:                       0 out of   1,440    0%
+  Number of Slice LUTs:                          0 out of   5,720    0%
 
 Slice Logic Distribution:
-  Number of occupied Slices:                     2 out of   1,430    1%
+  Number of occupied Slices:                     0 out of   1,430    0%
   Number of MUXCYs used:                         0 out of   2,860    0%
-  Number of LUT Flip Flop pairs used:            4
-    Number with an unused Flip Flop:             4 out of       4  100%
-    Number with an unused LUT:                   0 out of       4    0%
-    Number of fully used LUT-FF pairs:           0 out of       4    0%
-    Number of slice register sites lost
-      to control set restrictions:               0 out of  11,440    0%
-
-  A LUT Flip Flop pair for this architecture represents one LUT paired with
-  one Flip Flop within a slice.  A control set is a unique combination of
-  clock, reset, set, and enable signals for a registered element.
-  The Slice Logic Distribution report is not meaningful if the design is
-  over-mapped for a non-slice resource or if Placement fails.
+  Number of LUT Flip Flop pairs used:            0
 
 IO Utilization:
-  Number of bonded IOBs:                        16 out of     102   15%
-    Number of LOCed IOBs:                       16 out of      16  100%
+  Number of bonded IOBs:                        22 out of     102   21%
+    Number of LOCed IOBs:                       22 out of      22  100%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
@@ -128,11 +119,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                2.09
+Average Fanout of Non-Clock Nets:                0.00
 
-Peak Memory Usage:  4552 MB
-Total REAL time to MAP completion:  9 secs 
-Total CPU time to MAP completion:   9 secs 
+Peak Memory Usage:  4551 MB
+Total REAL time to MAP completion:  10 secs 
+Total CPU time to MAP completion:   10 secs 
 
 Mapping completed.
 See MAP report file "bcd_map.mrp" for details.
